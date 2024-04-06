@@ -1,0 +1,41 @@
++++Release Notes for Formula CarMaker+++
+
++++R2020.1+++
+
+Initial release for CarMaker 9.1
+
++++R2020.1.1+++
+
+Small changes in the FCM_Tutorial.pdf
+
++++R2021.1+++
+
+New project folder FS_autonomous:
+- example implementation of CarMaker with ROS (CMRosIF)
+- representative vehicle model
+- example track drive TestRun
+- automatic cone placement script
+
++++R2021.2+++
+- major updates to ensure compatibility with CarMaker 10.1
+- minor tweaks of the scenarios and documentations
+
++++R2021.3+++
+- major improvements especially for the Camera RSI sensor
+
++++R2021.4+++
+- FS_autonomous package has been updated to use the latest CMRosIF 1.0.0 release 
+- FS_autonomous package now supports both ROS1 and ROS2
+- New vehicle 3D object (blue and silver with carbon fibre detailing) named “FS_RaceCar.mobj”
+- The 3D Object has been implemented in IPGMovie as well as MovieNX
+
++++R2022.1+++
+- This package has now been updated for CarMaker 11.0.1
+- FS_autonomous package has been updated to use Ubuntu 20.04
+- FS_autonomous package has been updated and tested for ROS1 Noetic and ROS2 Foxy
+
++++R2023.1+++
+- This package has now been updated for CarMaker 12.0.1
+- FS_autonomous package has been updated to use Ubuntu 22.04
+- FS_autonomous package has been updated and tested for ROS2 Humble
+- FS_autonomous package will no longer support ROS1 officially.
