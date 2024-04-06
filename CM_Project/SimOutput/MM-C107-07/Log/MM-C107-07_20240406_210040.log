@@ -1,0 +1,91 @@
+APPLICATION	CarMaker 12.0.1 - Car_Generic #5 (win64-12.0.1)
+COMPILED	jetbrains@66e0c34c4bd1 2023-05-24 12:39:25
+ 
+		I/O Configuration: default
+SIM_START	TorqueVectoring	2024-04-06 21:01:13
+TIME	0.001
+WARNING		PowerTrain OpenXWD: No selected PowerTrainXWD model; calculation using DVA is possible, but without 'integration substepping'
+TIME	0.000
+SIMULATE	TorqueVectoring
+
+TIME	56.065
+SIM_END		TorqueVectoring	56.062s	328.554m
+APPLICATION	CarMaker 12.0.1 - Car_Generic #5 (win64-12.0.1)
+COMPILED	jetbrains@66e0c34c4bd1 2023-05-24 12:39:25
+ 
+		I/O Configuration: default
+SIM_START	TorqueVectoring	2024-04-06 21:01:41
+TIME	0.001
+WARNING		PowerTrain OpenXWD: No selected PowerTrainXWD model; calculation using DVA is possible, but without 'integration substepping'
+TIME	0.000
+SIMULATE	TorqueVectoring
+
+TIME	260.811
+		Lap Time = 130.140 secomds
+SIM_END		TorqueVectoring	260.814s	1531.32m
+APPLICATION	CarMaker 12.0.1 - Car_Generic #5 (win64-12.0.1)
+COMPILED	jetbrains@66e0c34c4bd1 2023-05-24 12:39:25
+ 
+		I/O Configuration: default
+SIM_START	TorqueVectoring	2024-04-06 21:03:15
+TIME	0.001
+WARNING		PowerTrain OpenXWD: No selected PowerTrainXWD model; calculation using DVA is possible, but without 'integration substepping'
+TIME	0.000
+SIMULATE	TorqueVectoring
+
+TIME	54.185
+		Lap   1: t=  54.185s	Dist=743.8027m	sRoad=0.9745m
+TIME	107.536
+		Driver results: event 1 (t= 107.536s, s= 1479.40m)
+		Lap   2: t=  53.952s	Dist=745.4468m	sRoad=0.9602m
+		Lap Time = 53.952 secomds
+		Driver results: event 2 (t= 108.140s, s= 1489.26m)
+SIM_END		TorqueVectoring	108.14s	1489.26m
+APPLICATION	CarMaker 12.0.1 - Car_Generic #5 (win64-12.0.1)
+COMPILED	jetbrains@66e0c34c4bd1 2023-05-24 12:39:25
+ 
+		I/O Configuration: default
+SIM_START	TorqueVectoring	2024-04-06 21:04:37
+TIME	0.001
+WARNING		PowerTrain OpenXWD: No selected PowerTrainXWD model; calculation using DVA is possible, but without 'integration substepping'
+TIME	0.000
+SIMULATE	TorqueVectoring
+
+TIME	54.231
+		Lap   1: t=  54.231s	Dist=743.8366m	sRoad=0.9732m
+TIME	107.626
+		Driver results: event 1 (t= 107.626s, s= 1479.40m)
+		Lap   2: t=  53.997s	Dist=745.4270m	sRoad=0.9696m
+		Lap Time = 53.997 secomds
+		Driver results: event 2 (t= 108.231s, s= 1489.28m)
+SIM_END		TorqueVectoring	108.231s	1489.28m
+APPLICATION	CarMaker 12.0.1 - Car_Generic #5 (win64-12.0.1)
+COMPILED	jetbrains@66e0c34c4bd1 2023-05-24 12:39:25
+ 
+		I/O Configuration: default
+SIM_START	TorqueVectoring	2024-04-06 21:06:41
+TIME	0.001
+WARNING		PowerTrain OpenXWD: No selected PowerTrainXWD model; calculation using DVA is possible, but without 'integration substepping'
+TIME	0.000
+SIMULATE	TorqueVectoring
+
+TIME	47.111
+SIM_END		TorqueVectoring	47.108s	9.57205e-06m
+APPLICATION	CarMaker 12.0.1 - Car_Generic #5 (win64-12.0.1)
+COMPILED	jetbrains@66e0c34c4bd1 2023-05-24 12:39:25
+ 
+		I/O Configuration: default
+SIM_START	TorqueVectoring	2024-04-06 21:07:50
+TIME	0.001
+WARNING		PowerTrain OpenXWD: No selected PowerTrainXWD model; calculation using DVA is possible, but without 'integration substepping'
+TIME	0.000
+SIMULATE	TorqueVectoring
+
+TIME	54.273
+		Lap   1: t=  54.273s	Dist=743.8996m	sRoad=0.9665m
+TIME	107.699
+		Driver results: event 1 (t= 107.699s, s= 1479.53m)
+		Lap   2: t=  54.028s	Dist=745.4951m	sRoad=0.9677m
+		Lap Time = 54.028 secomds
+		Driver results: event 2 (t= 108.304s, s= 1489.41m)
+SIM_END		TorqueVectoring	108.304s	1489.41m

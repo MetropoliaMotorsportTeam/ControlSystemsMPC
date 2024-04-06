@@ -2,7 +2,7 @@
 FileIdent = CarMaker-TestRun 12
 FileCreator = CarMaker for Simulink 12.0.1
 Description:
-Vehicle = Examples_FS/FSE_AllWheelDrive
+Vehicle = Examples_FS/FSE_OpenXWD
 Trailer =
 Tire.0 = Examples/CONTINENTAL_FS_205_510_R13_100kPa
 Tire.1 = Examples/CONTINENTAL_FS_205_510_R13_100kPa
@@ -194,14 +194,14 @@ Driver.Learn.VehicleLimits.TestRun = TorqueVectoring
 Driver.Learn.VehicleLimits.Date = 1712426117
 Driver.Learn.ControllerDyn.TestRun = TorqueVectoring
 Driver.Learn.ControllerDyn.Date = 1712426117
-Driver.Learn.MaxSpeed.TestRun =
-Driver.Learn.MaxSpeed.Date = 0
+Driver.Learn.MaxSpeed.TestRun = TorqueVectoring
+Driver.Learn.MaxSpeed.Date = 1712426901
 Driver.Learn.Remember = 1
 Driver.Learn.Friction = 1.0
 Driver.Learn.G2GearNo = 2
 Driver.Learn.G3GearNo = 3
 Driver.Knowl.Info =
-Driver.Knowl.Vehicle.iDiff = 1.00000
+Driver.Knowl.Vehicle.iDiff = 3.00000
 Driver.Knowl.Vehicle.rWheel = 0.25164
 Driver.Knowl.Vehicle.iFGear = 12.30000
 Driver.Knowl.Vehicle.iBGear =
@@ -210,16 +210,16 @@ Driver.Knowl.Vehicle.Aero.Factor_axDecel = 1.000
 Driver.Knowl.Vehicle.Aero.Factor_ay = 0.950
 Driver.Knowl.Vehicle.Aero:
 	20.00 13.96 -25.01 19.36
-	30.00 13.78 -25.39 20.15
-	40.00 13.37 -25.72 20.91
-	50.00 12.76 -25.94 21.66
+	30.00 13.78 -25.39 19.95
+	40.00 13.37 -25.72 20.73
+	50.00 12.75 -25.94 21.64
 	60.00 11.63 -26.10 22.45
 	70.00 10.21 -26.26 23.52
 	80.00 8.75 -26.41 25.09
 	90.00 7.24 -26.52 26.74
 	100.00 5.80 -26.56 28.04
 	110.00 4.52 -26.56 29.13
-	120.00 3.63 -26.55 30.19
+	120.00 3.66 -26.55 30.19
 	130.00 3.34 -26.55 31.26
 Driver.Knowl.Lat.tPreview = 0.596
 Driver.Knowl.Lat.tYawPro = 0.021
