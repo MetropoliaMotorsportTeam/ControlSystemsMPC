@@ -1,1 +1,4 @@
 slprj/
+
+# ignore cache files
+*.slxc
