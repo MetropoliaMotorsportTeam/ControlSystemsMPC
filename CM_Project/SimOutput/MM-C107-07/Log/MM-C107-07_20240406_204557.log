@@ -1,0 +1,80 @@
+APPLICATION	CarMaker 12.0.1 - Car_Generic #5 (win64-12.0.1)
+COMPILED	jetbrains@66e0c34c4bd1 2023-05-24 12:39:25
+ 
+		I/O Configuration: default
+SIM_START	Competition/FS_Autocross	2024-04-06 20:46:19
+TIME	0.000
+SIMULATE	Competition/FS_Autocross
+
+TIME	10.003
+SIM_END		Competition/FS_Autocross	10s	0.000392697m
+APPLICATION	CarMaker 12.0.1 - Car_Generic #5 (win64-12.0.1)
+COMPILED	jetbrains@66e0c34c4bd1 2023-05-24 12:39:25
+ 
+		I/O Configuration: default
+SIM_START	Competition/FS_Autocross	2024-04-06 20:48:12
+TIME	0.000
+SIMULATE	Competition/FS_Autocross
+
+TIME	34.239
+SIM_END		Competition/FS_Autocross	34.236s	0.000500174m
+APPLICATION	CarMaker 12.0.1 - Car_Generic #5 (win64-12.0.1)
+COMPILED	jetbrains@66e0c34c4bd1 2023-05-24 12:39:25
+ 
+		I/O Configuration: default
+SIM_START	TorqueVectoring	2024-04-06 20:48:46
+TIME	0.000
+SIMULATE	TorqueVectoring
+
+TIME	47.760
+WARNING		IPGDriver: Learnprocedure: problems with identification of Knowl.LongDyn.tPreBraDyn (2) (id=200)
+TIME	57.839
+WARNING		IPGDriver: Problems with generating speed profile. Destination speed is too small (-30.7 km/h) -> set to 20 km/h (id=200)
+TIME	78.728
+WARNING		IPGDriver: Problems with generating speed profile. Destination speed is too small (-22.7 km/h) -> set to 20 km/h (id=200)
+TIME	97.825
+WARNING		IPGDriver: Problems with generating speed profile. Destination speed is too small (-22.7 km/h) -> set to 20 km/h (id=200)
+TIME	116.004
+WARNING		IPGDriver: Problems with generating speed profile. Destination speed is too small (-22.7 km/h) -> set to 20 km/h (id=200)
+TIME	133.361
+WARNING		IPGDriver: Problems with generating speed profile. Destination speed is too small (-15.5 km/h) -> set to 20 km/h (id=200)
+TIME	149.287
+WARNING		IPGDriver: Problems with generating speed profile. Destination speed is too small (-9.1 km/h) -> set to 20 km/h (id=200)
+TIME	163.927
+WARNING		IPGDriver: Problems with generating speed profile. Destination speed is too small (-3.2 km/h) -> set to 20 km/h (id=200)
+TIME	177.408
+WARNING		IPGDriver: Problems with generating speed profile. Destination speed is too small (2.0 km/h) -> set to 20 km/h (id=200)
+TIME	189.845
+WARNING		IPGDriver: Problems with generating speed profile. Destination speed is too small (6.7 km/h) -> set to 20 km/h (id=200)
+TIME	201.343
+WARNING		IPGDriver: Problems with generating speed profile. Destination speed is too small (11.0 km/h) -> set to 20 km/h (id=200)
+TIME	211.996
+WARNING		IPGDriver: Problems with generating speed profile. Destination speed is too small (14.8 km/h) -> set to 20 km/h (id=200)
+TIME	222.068
+WARNING		IPGDriver: Problems with generating speed profile. Destination speed is too small (18.2 km/h) -> set to 20 km/h (id=200)
+TIME	512.886
+WARNING		IPGDriver: Learnprocedure: problems with identification of Knowl.LatDyn.tPreview (1) (id=200)
+TIME	1473.190
+SIM_END		TorqueVectoring	1473.19s	17612.1m
+APPLICATION	CarMaker 12.0.1 - Car_Generic #5 (win64-12.0.1)
+COMPILED	jetbrains@66e0c34c4bd1 2023-05-24 12:39:25
+ 
+		I/O Configuration: default
+SIM_START	TorqueVectoring	2024-04-06 20:56:51
+TIME	0.000
+SIMULATE	TorqueVectoring
+
+TIME	261.796
+		Lap Time = 129.321 secomds
+SIM_END		TorqueVectoring	261.799s	1530.93m
+APPLICATION	CarMaker 12.0.1 - Car_Generic #5 (win64-12.0.1)
+COMPILED	jetbrains@66e0c34c4bd1 2023-05-24 12:39:25
+ 
+		I/O Configuration: default
+SIM_START	TorqueVectoring	2024-04-06 20:58:22
+TIME	0.000
+SIMULATE	TorqueVectoring
+
+TIME	261.796
+		Lap Time = 129.321 secomds
+SIM_END		TorqueVectoring	261.799s	1530.93m

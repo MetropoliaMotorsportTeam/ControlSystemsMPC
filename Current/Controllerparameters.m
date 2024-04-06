@@ -85,7 +85,7 @@ MaxStrAng = 145 ;
 MinStrAng = -145 ; 
 
 
-i_Diff = 1;
+i_Diff = 12;
 
 % SAVE PARAMS TO PARAMS.MAT
 save('params.mat')

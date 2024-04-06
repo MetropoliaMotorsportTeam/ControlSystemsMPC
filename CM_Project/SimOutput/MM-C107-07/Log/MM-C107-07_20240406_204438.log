@@ -1,0 +1,23 @@
+APPLICATION	CarMaker 12.0.1 - Car_Generic #3 (win64-12.0.1)
+COMPILED	jetbrains@66e0c34c4bd1 2023-05-24 12:39:09
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2024-04-06 20:44:38
+TIME	0.000
+SIM_END			0s	0m
+IDLE	20:44:39
+SIM_START	Competition/FS_Autocross	2024-04-06 20:44:40
+TIME	0.141
+WARNING		Cannot start simulation, must be in state 'Idle' (currently 'StartWaitAnim')
+TIME	0.000
+SIMULATE	Competition/FS_Autocross
+
+TIME	71.258
+		Lap   1: t=  71.258s	Dist=754.2598m	sRoad=0.7638m
+TIME	140.548
+		Lap   2: t=  69.290s	Dist=756.3362m	sRoad=0.7618m
+		Lap Time = 69.290 secomds
+SIM_END		Competition/FS_Autocross	140.549s	1510.61m
+TIME	143.243
+SHUTDOWN	CarMaker quick shutdown initiated
+
