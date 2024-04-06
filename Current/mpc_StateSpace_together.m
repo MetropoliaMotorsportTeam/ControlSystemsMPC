@@ -27,3 +27,7 @@ mpc1.Weights.MV = 0;
 mpc1.Weights.MVRate = 0.1;
 mpc1.Weights.OV = [1 0 0];
 mpc1.Weights.ECR = 100000;
+
+
+% SAVE ALL VARIABLES TO MPCSS.MAT
+save("mpcss.mat")

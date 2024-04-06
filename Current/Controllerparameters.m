@@ -83,3 +83,9 @@ Yawratemin = -2.094;
 % Steering wheel angle can be maximum 140 or -140 degrees 
 MaxStrAng = 145 ;
 MinStrAng = -145 ; 
+
+
+pwd
+
+% SAVE PARAMS TO PARAMS.MAT
+save('params.mat')
