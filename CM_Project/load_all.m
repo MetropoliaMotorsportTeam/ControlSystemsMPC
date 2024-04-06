@@ -6,6 +6,7 @@ idcs = strfind(mydir,'\');
 current_dir = append(mydir(1:idcs(end)-1), '\Current');
 addpath(current_dir);
 addpath(append(mydir, '\src_cm4sl'));
+addpath(mydir);
 
 %AND PARAMETERS
 Controllerparameters;

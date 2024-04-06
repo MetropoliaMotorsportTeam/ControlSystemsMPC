@@ -85,7 +85,7 @@ MaxStrAng = 145 ;
 MinStrAng = -145 ; 
 
 
-pwd
+i_Diff = 1;
 
 % SAVE PARAMS TO PARAMS.MAT
 save('params.mat')
