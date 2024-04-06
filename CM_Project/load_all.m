@@ -13,6 +13,7 @@ mpc_StateSpace_together;
 
 load("params.mat")
 load("mpcss.mat")
+load("FSE_motor_parameters1.txt")
 
 %CARMAKER ENVIRONMENT
 cmenv

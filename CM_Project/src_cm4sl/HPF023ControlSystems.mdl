@@ -43,8 +43,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <cp:category>model</cp:category>
   <dcterms:created xsi:type="dcterms:W3CDTF">2024-04-06T16:33:17Z</dcterms:created>
   <cp:lastModifiedBy>emanuese</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-04-06T16:33:17Z</dcterms:modified>
-  <cp:revision>4.82</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-04-06T16:50:14Z</dcterms:modified>
+  <cp:revision>4.84</cp:revision>
   <cp:version>R2021b</cp:version>
 </cp:coreProperties>
 
@@ -375,8 +375,8 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="RTWModifiedTimeStamp">634332726</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:4.82&gt;</P>
+      <P Name="RTWModifiedTimeStamp">634333807</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:4.84&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">none</P>
@@ -1704,27 +1704,27 @@ __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
 __MWOPC_PART_BEGIN__ /simulink/ScheduleCore.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <sltp_graph version="1.1" packageUris="http://schema.mathworks.com/mf0/sltp_mm/R2021b_202106150630">
-  <sltp.mm.core.Context type="sltp.mm.core.Context" uuid="b07b74cc-83bd-4969-8a2f-427527bbabeb">
+  <sltp.mm.core.Context type="sltp.mm.core.Context" uuid="639c8ed9-92b2-49cf-99cf-4fb6aacdfe49">
     <priorityDirection>HighNumberLast</priorityDirection>
     <editorState type="sltp.mm.core.EditorState" uuid="32365428-cba8-4236-aef9-a81d771fde58">
       <isSynchronized>true</isSynchronized>
       <panelState type="sltp.mm.core.EditorPanelState" uuid="1a42a620-6dd1-4e10-b6e3-636124c98f80"/>
     </editorState>
-    <rootTask type="sltp.mm.core.Task" uuid="1ebe7f7f-5623-4879-8d8d-0d82e4a69606">
-      <context type="sltp.mm.core.Context" uuid="b07b74cc-83bd-4969-8a2f-427527bbabeb"/>
+    <rootTask type="sltp.mm.core.Task" uuid="f35807aa-a977-4a59-ad1f-1fc38b3014a4">
+      <context type="sltp.mm.core.Context" uuid="639c8ed9-92b2-49cf-99cf-4fb6aacdfe49"/>
       <explicit>false</explicit>
       <name>Default</name>
       <priority>-2147483648</priority>
-      <subgraph type="sltp.mm.core.Graph" uuid="7d993797-b33e-46ba-a90a-870ab799c58f">
-        <tasks type="sltp.mm.core.Task" uuid="bfbf59c0-840f-4fe2-b1b6-34d68e47de67">
+      <subgraph type="sltp.mm.core.Graph" uuid="6d89bf99-e80d-41b6-afc3-65778ea28770">
+        <tasks type="sltp.mm.core.Task" uuid="a4c567b8-fbca-4822-8b4b-085eb74edb4b">
           <baseTask>true</baseTask>
-          <context type="sltp.mm.core.Context" uuid="b07b74cc-83bd-4969-8a2f-427527bbabeb"/>
+          <context type="sltp.mm.core.Context" uuid="639c8ed9-92b2-49cf-99cf-4fb6aacdfe49"/>
           <explicit>false</explicit>
           <id>1</id>
           <isTimed>true</isTimed>
           <name>Cont</name>
           <priority>40</priority>
-          <rates type="sltp.mm.core.Rate" uuid="0d3e10b2-20a0-4369-bc7b-07403c733eb4">
+          <rates type="sltp.mm.core.Rate" uuid="2aa1092f-3f49-444a-824f-a68fe734ede4">
             <annotation>Cont</annotation>
             <color>255</color>
             <hasBlocks>true</hasBlocks>
@@ -1734,7 +1734,7 @@ __MWOPC_PART_BEGIN__ /simulink/ScheduleCore.xml
             </rateSpec>
             <sti>0</sti>
           </rates>
-          <rates type="sltp.mm.core.Rate" uuid="d42c67bd-9c7f-4fe2-8265-b0f725f8552f">
+          <rates type="sltp.mm.core.Rate" uuid="e8f5c30f-108b-44e6-b8c9-0cdb4c468a48">
             <annotation>D1</annotation>
             <color>-436207361</color>
             <hasBlocks>true</hasBlocks>
@@ -1743,7 +1743,7 @@ __MWOPC_PART_BEGIN__ /simulink/ScheduleCore.xml
             </rateSpec>
             <sti>1</sti>
           </rates>
-          <rates type="sltp.mm.core.Rate" uuid="5ddab92c-e4b9-4eba-9e0d-5c1bed8f3204">
+          <rates type="sltp.mm.core.Rate" uuid="3a28d412-6ec6-456c-b8b8-a00e18db914f">
             <annotation>D2</annotation>
             <color>13697279</color>
             <hasBlocks>true</hasBlocks>
@@ -2713,7 +2713,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_1755.xml
   <P Name="PaperType">A4</P>
   <P Name="PaperUnits">centimeters</P>
   <P Name="TiledPaperMargins">[1.270000, 1.270000, 1.270000, 1.270000]</P>
-  <P Name="ZoomFactor">123</P>
+  <P Name="ZoomFactor">104</P>
   <P Name="SimulinkSubDomain">Simulink</P>
   <Block BlockType="Inport" Name="Sync_In" SID="1756">
     <P Name="Position">[50, 133, 80, 147]</P>
@@ -3475,7 +3475,6 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_1780.xml
 <System>
   <P Name="Location">[-8, -8, 3448, 1418]</P>
   <P Name="SystemRect">[0.000000, 0.000000, 0.000000, 0.000000]</P>
-  <P Name="Open">on</P>
   <P Name="SetExecutionDomain">off</P>
   <P Name="ExecutionDomainType">Deduce</P>
   <P Name="PaperType">A4</P>
@@ -11150,7 +11149,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2181.xml
   <P Name="PaperType">A4</P>
   <P Name="PaperUnits">centimeters</P>
   <P Name="TiledPaperMargins">[1.270000, 1.270000, 1.270000, 1.270000]</P>
-  <P Name="ZoomFactor">150</P>
+  <P Name="ZoomFactor">126</P>
   <P Name="SimulinkSubDomain">Simulink</P>
   <Block BlockType="Inport" Name="Sync_In" SID="2182">
     <P Name="Position">[95, 73, 125, 87]</P>
@@ -14032,7 +14031,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2793.xml
     <P Name="Position">[80, 353, 230, 377]</P>
     <P Name="ZOrder">-8</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14048,7 +14047,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2793.xml
     <P Name="Position">[80, 408, 230, 432]</P>
     <P Name="ZOrder">-9</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14064,7 +14063,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2793.xml
     <P Name="Position">[80, 463, 230, 487]</P>
     <P Name="ZOrder">4</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14080,7 +14079,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2793.xml
     <P Name="Position">[80, 518, 230, 542]</P>
     <P Name="ZOrder">3</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14114,7 +14113,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2793.xml
     <P Name="Position">[665, 92, 810, 118]</P>
     <P Name="ZOrder">-10</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Write CM Dict</P>
     <P Name="SourceType">Write CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14129,7 +14128,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2793.xml
     <P Name="Position">[665, 147, 810, 173]</P>
     <P Name="ZOrder">-11</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Write CM Dict</P>
     <P Name="SourceType">Write CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14144,7 +14143,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2793.xml
     <P Name="Position">[665, 202, 810, 228]</P>
     <P Name="ZOrder">1</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Write CM Dict</P>
     <P Name="SourceType">Write CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14159,7 +14158,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2793.xml
     <P Name="Position">[665, 257, 810, 283]</P>
     <P Name="ZOrder">2</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Write CM Dict</P>
     <P Name="SourceType">Write CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14312,13 +14311,18 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
 <System>
   <P Name="Location">[-8, -8, 3448, 1418]</P>
   <P Name="SystemRect">[0.000000, 0.000000, 0.000000, 0.000000]</P>
+  <P Name="Open">on</P>
   <P Name="SetExecutionDomain">off</P>
   <P Name="ExecutionDomainType">Deduce</P>
-  <P Name="ZoomFactor">60</P>
   <P Name="SimulinkSubDomain">Simulink</P>
   <Block BlockType="Inport" Name="VC.Gas" SID="2797">
     <P Name="Position">[145, 123, 175, 137]</P>
     <P Name="ZOrder">-1</P>
+  </Block>
+  <Block BlockType="Constant" Name="Constant" SID="3861">
+    <P Name="Position">[1605, 925, 1635, 955]</P>
+    <P Name="ZOrder">572</P>
+    <P Name="Value">10</P>
   </Block>
   <Block BlockType="SubSystem" Name="Controlsystems" SID="3558">
     <P Name="Ports">[8, 4]</P>
@@ -14422,7 +14426,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[5, 358, 155, 382]</P>
     <P Name="ZOrder">17</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14442,7 +14446,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[5, 393, 155, 417]</P>
     <P Name="ZOrder">18</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14462,7 +14466,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[1015, 1158, 1165, 1182]</P>
     <P Name="ZOrder">518</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14478,7 +14482,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[1015, 1203, 1165, 1227]</P>
     <P Name="ZOrder">519</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14494,7 +14498,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[1020, 1252, 1160, 1278]</P>
     <P Name="ZOrder">529</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14510,7 +14514,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[1015, 1325, 1085, 1345]</P>
     <P Name="ZOrder">532</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14530,7 +14534,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[1015, 1360, 1085, 1380]</P>
     <P Name="ZOrder">543</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14550,7 +14554,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[5, 428, 155, 452]</P>
     <P Name="ZOrder">19</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14570,7 +14574,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[1360, -70, 1430, -50]</P>
     <P Name="ZOrder">496</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14590,7 +14594,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[605, 1030, 675, 1050]</P>
     <P Name="ZOrder">497</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14610,7 +14614,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[605, 1080, 675, 1100]</P>
     <P Name="ZOrder">498</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14630,7 +14634,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[1360, 440, 1430, 460]</P>
     <P Name="ZOrder">499</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14650,7 +14654,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[1360, 610, 1430, 630]</P>
     <P Name="ZOrder">500</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14670,7 +14674,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[1360, 695, 1430, 715]</P>
     <P Name="ZOrder">501</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14690,7 +14694,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[1360, 780, 1430, 800]</P>
     <P Name="ZOrder">502</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14710,7 +14714,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[5, 463, 155, 487]</P>
     <P Name="ZOrder">20</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14730,7 +14734,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[1360, 270, 1430, 290]</P>
     <P Name="ZOrder">504</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14750,7 +14754,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[1360, 185, 1430, 205]</P>
     <P Name="ZOrder">503</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14770,7 +14774,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[1360, 100, 1430, 120]</P>
     <P Name="ZOrder">505</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14790,7 +14794,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[5, 508, 155, 532]</P>
     <P Name="ZOrder">22</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14810,7 +14814,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[5, 543, 155, 567]</P>
     <P Name="ZOrder">23</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14830,7 +14834,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[5, 578, 155, 602]</P>
     <P Name="ZOrder">24</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14850,7 +14854,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[5, 613, 155, 637]</P>
     <P Name="ZOrder">25</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14870,7 +14874,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[1015, 1078, 1165, 1102]</P>
     <P Name="ZOrder">516</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -14886,7 +14890,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Position">[1015, 1118, 1165, 1142]</P>
     <P Name="ZOrder">517</P>
     <P Name="BackgroundColor">orange</P>
-    <P Name="LibraryVersion">1.497</P>
+    <P Name="LibraryVersion">1.0</P>
     <P Name="SourceBlock">CarMaker4SL/Read CM Dict</P>
     <P Name="SourceType">Read CarMaker Dictionary Variable(s)</P>
     <P Name="SourceProductName">CarMaker4SL</P>
@@ -15370,6 +15374,18 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_2796.xml
     <P Name="Points">[58, 0; 0, -95]</P>
     <P Name="Dst">3558#in:2</P>
   </Line>
+  <Line>
+    <P Name="ZOrder">311</P>
+    <P Name="Src">3861#out:1</P>
+    <P Name="Dst">3558#in:8</P>
+  </Line>
+  <Annotation SID="3862">
+    <P Name="Name">TO REPLACE WITH ACTUAL LATERALVELOCITY</P>
+    <P Name="Position">[1481, 902, 1710, 916]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="HorizontalAlignment">left</P>
+    <P Name="VerticalAlignment">top</P>
+  </Annotation>
 </System>
 
 __MWOPC_PART_BEGIN__ /simulink/systems/system_2832.xml
@@ -15748,6 +15764,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3558.xml
   <P Name="SystemRect">[0.000000, 0.000000, 0.000000, 0.000000]</P>
   <P Name="SetExecutionDomain">off</P>
   <P Name="ExecutionDomainType">Deduce</P>
+  <P Name="ZoomFactor">80</P>
   <P Name="SimulinkSubDomain">Simulink</P>
   <Block BlockType="Inport" Name="VehicleSpeed" SID="3713">
     <P Name="Position">[530, 548, 560, 562]</P>
@@ -16275,24 +16292,16 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3558.xml
     <P Name="Name">TOTAL</P>
     <P Name="ZOrder">706</P>
     <P Name="Src">3825#out:1</P>
-    <P Name="Points">[40, 0]</P>
+    <P Name="Points">[92, 0]</P>
     <Branch>
-      <P Name="ZOrder">707</P>
-      <P Name="Points">[52, 0]</P>
-      <Branch>
-        <P Name="ZOrder">1182</P>
-        <P Name="Points">[0, 30]</P>
-        <P Name="Dst">3859#in:2</P>
-      </Branch>
-      <Branch>
-        <P Name="ZOrder">1181</P>
-        <P Name="Dst">3652#in:1</P>
-      </Branch>
+      <P Name="ZOrder">1182</P>
+      <P Name="Points">[0, 30]</P>
+      <P Name="Dst">3859#in:2</P>
     </Branch>
     <Branch>
-      <P Name="ZOrder">694</P>
-      <P Name="Labels">[1, 1]</P>
-      <P Name="Points">[0, -15; 25, 0]</P>
+      <P Name="ZOrder">1181</P>
+      <P Name="Labels">[0, 0]</P>
+      <P Name="Dst">3652#in:1</P>
     </Branch>
   </Line>
   <Line>
@@ -16363,18 +16372,9 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3558.xml
     <P Name="Points">[39, 0]</P>
     <Branch>
       <P Name="ZOrder">931</P>
-      <P Name="Points">[0, 28; 90, 0]</P>
-      <Branch>
-        <P Name="ZOrder">941</P>
-        <P Name="Labels">[1, 1]</P>
-        <P Name="Points">[0, -113; 21, 0]</P>
-      </Branch>
-      <Branch>
-        <P Name="ZOrder">940</P>
-        <P Name="Labels">[1, 1]</P>
-        <P Name="Points">[496, 0; 0, 212]</P>
-        <P Name="Dst">3856#in:2</P>
-      </Branch>
+      <P Name="Labels">[2, 1]</P>
+      <P Name="Points">[0, 28; 586, 0; 0, 212]</P>
+      <P Name="Dst">3856#in:2</P>
     </Branch>
     <Branch>
       <P Name="ZOrder">930</P>
@@ -16429,17 +16429,9 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_3558.xml
   <Line>
     <P Name="Name">ReqTorque</P>
     <P Name="ZOrder">703</P>
+    <P Name="Labels">[0, 0]</P>
     <P Name="Src">3674#out:1</P>
-    <P Name="Points">[35, 0]</P>
-    <Branch>
-      <P Name="ZOrder">939</P>
-      <P Name="Labels">[3, 1]</P>
-      <P Name="Points">[0, -33; 98, 0; 0, 43; 17, 0]</P>
-    </Branch>
-    <Branch>
-      <P Name="ZOrder">937</P>
-      <P Name="Dst">3825#in:1</P>
-    </Branch>
+    <P Name="Dst">3825#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">718</P>
@@ -16727,7 +16719,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
   <P Name="ExecutionDomainType">Deduce</P>
   <P Name="ZoomFactor">151</P>
   <P Name="ReportName">simulink-default.rpt</P>
-  <P Name="SIDHighWatermark">3860</P>
+  <P Name="SIDHighWatermark">3862</P>
   <P Name="SimulinkSubDomain">Simulink</P>
   <Block BlockType="SubSystem" Name="CarMaker" SID="1726">
     <P Name="Ports">[]</P>
@@ -16815,16 +16807,6 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
         <Object ObjectID="5">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">1</P>
-          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">1780</P>
-          <P Name="Extents" Class="double">[3402.0, 1184.0]</P>
-          <P Name="ZoomFactor" Class="double">1.0</P>
-          <P Name="Offset" Class="double">[-1122.796875, -395.0]</P>
-          <P Name="SceneRectInView" Class="double">[-1122.796875, -395.0, 3402.0, 1184.0]</P>
-        </Object>
-        <Object ObjectID="6">
-          <P Name="IsActive" Class="logical">1</P>
-          <P Name="IsTabbed" Class="logical">1</P>
           <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
           <P Name="LoadSaveID" Class="char">0</P>
           <P Name="Extents" Class="double">[3372.0, 972.0]</P>
@@ -16832,47 +16814,47 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-211.35410415140007, -206.82152669031944]</P>
           <P Name="SceneRectInView" Class="double">[-211.35410415140007, -206.82152669031944, 2229.5899936040905, 642.69320100331436]</P>
         </Object>
+        <Object ObjectID="6">
+          <P Name="IsActive" Class="logical">1</P>
+          <P Name="IsTabbed" Class="logical">1</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">2796</P>
+          <P Name="Extents" Class="double">[3372.0, 972.0]</P>
+          <P Name="ZoomFactor" Class="double">1.0</P>
+          <P Name="Offset" Class="double">[88.077492594250543, 86.507407407407754]</P>
+          <P Name="SceneRectInView" Class="double">[88.077492594250543, 86.507407407407754, 3372.0, 972.0]</P>
+        </Object>
         <Object ObjectID="7">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">3558</P>
+          <P Name="LoadSaveID" Class="char">1780</P>
           <P Name="Extents" Class="double">[3372.0, 972.0]</P>
           <P Name="ZoomFactor" Class="double">1.0</P>
-          <P Name="Offset" Class="double">[388.06356842925652, 78.164461509587]</P>
-          <P Name="SceneRectInView" Class="double">[388.06356842925652, 78.164461509587, 3372.0, 972.0]</P>
+          <P Name="Offset" Class="double">[-1122.796875, -395.0]</P>
+          <P Name="SceneRectInView" Class="double">[-1122.796875, -395.0, 3372.0, 972.0]</P>
         </Object>
         <Object ObjectID="8">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">1726</P>
-          <P Name="Extents" Class="double">[3372.0, 1155.0]</P>
-          <P Name="ZoomFactor" Class="double">1.2423746032509377</P>
-          <P Name="Offset" Class="double">[38.535423960389608, -269.68051719667261]</P>
-          <P Name="SceneRectInView" Class="double">[38.535423960389608, -269.68051719667261, 2714.1572205166171, 929.67128994563836]</P>
+          <P Name="LoadSaveID" Class="char">1755</P>
+          <P Name="Extents" Class="double">[3372.0, 972.0]</P>
+          <P Name="ZoomFactor" Class="double">1.0363109863109863</P>
+          <P Name="Offset" Class="double">[-489.99771793307787, -101.75171996202437]</P>
+          <P Name="SceneRectInView" Class="double">[-489.99771793307787, -101.75171996202437, 3253.8495148097345, 937.94238683127571]</P>
         </Object>
         <Object ObjectID="9">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">1755</P>
-          <P Name="Extents" Class="double">[3372.0, 1155.0]</P>
-          <P Name="ZoomFactor" Class="double">1.2314189189189189</P>
-          <P Name="Offset" Class="double">[-232.22522390269637, -101.75171996202437]</P>
-          <P Name="SceneRectInView" Class="double">[-232.22522390269637, -101.75171996202437, 2738.3045267489715, 937.94238683127571]</P>
+          <P Name="LoadSaveID" Class="char">2181</P>
+          <P Name="Extents" Class="double">[3372.0, 972.0]</P>
+          <P Name="ZoomFactor" Class="double">1.2623376623376623</P>
+          <P Name="Offset" Class="double">[-643.29543720663537, -322.40028700093336]</P>
+          <P Name="SceneRectInView" Class="double">[-643.29543720663537, -322.40028700093336, 2671.2345679012346, 770.0]</P>
         </Object>
         <Object ObjectID="10">
-          <P Name="IsActive" Class="logical">0</P>
-          <P Name="IsTabbed" Class="logical">0</P>
-          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">2181</P>
-          <P Name="Extents" Class="double">[3372.0, 1155.0]</P>
-          <P Name="ZoomFactor" Class="double">1.5</P>
-          <P Name="Offset" Class="double">[-431.67815325601805, -322.40028700093336]</P>
-          <P Name="SceneRectInView" Class="double">[-431.67815325601805, -322.40028700093336, 2248.0, 770.0]</P>
-        </Object>
-        <Object ObjectID="11">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -16882,15 +16864,25 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-1255.9999999999995, -271.0]</P>
           <P Name="SceneRectInView" Class="double">[-1255.9999999999995, -271.0, 3372.0, 972.0]</P>
         </Object>
+        <Object ObjectID="11">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">3558</P>
+          <P Name="Extents" Class="double">[3372.0, 972.0]</P>
+          <P Name="ZoomFactor" Class="double">0.8</P>
+          <P Name="Offset" Class="double">[-252.82097894618823, 176.54798946035805]</P>
+          <P Name="SceneRectInView" Class="double">[-252.82097894618823, 176.54798946035805, 4215.0, 1215.0]</P>
+        </Object>
         <Object ObjectID="12">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">2796</P>
-          <P Name="Extents" Class="double">[3372.0, 972.0]</P>
-          <P Name="ZoomFactor" Class="double">0.6</P>
-          <P Name="Offset" Class="double">[-923.25584073908294, -417.49259259259225]</P>
-          <P Name="SceneRectInView" Class="double">[-923.25584073908294, -417.49259259259225, 5620.0, 1620.0]</P>
+          <P Name="LoadSaveID" Class="char">1726</P>
+          <P Name="Extents" Class="double">[3372.0, 1155.0]</P>
+          <P Name="ZoomFactor" Class="double">1.2423746032509377</P>
+          <P Name="Offset" Class="double">[38.535423960389608, -269.68051719667261]</P>
+          <P Name="SceneRectInView" Class="double">[38.535423960389608, -269.68051719667261, 2714.1572205166171, 929.67128994563836]</P>
         </Object>
         <Object ObjectID="13">
           <P Name="IsActive" Class="logical">0</P>
@@ -17705,18 +17697,6 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
       </Array>
       <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*2">
         <Object ObjectID="94">
-          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
-          <P Name="ID" Class="char">Property Inspector</P>
-          <P Name="Visible" Class="logical">0</P>
-          <P Name="CreateCallback" Class="char"/>
-          <P Name="UserData" Class="char"/>
-          <P Name="Floating" Class="logical">0</P>
-          <P Name="DockPosition" Class="char">Right</P>
-          <P Name="Width" Class="int32">640</P>
-          <P Name="Height" Class="int32">480</P>
-          <P Name="Minimized" Class="char">Unset</P>
-        </Object>
-        <Object ObjectID="95">
           <P Name="Type" Class="char">Simulink:Editor:ReferencedFiles</P>
           <P Name="ID" Class="char">Referenced Files</P>
           <P Name="Visible" Class="logical">1</P>
@@ -17728,6 +17708,18 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Width" Class="int32">640</P>
           <P Name="Height" Class="int32">480</P>
           <P Name="Minimized" Class="char">On</P>
+        </Object>
+        <Object ObjectID="95">
+          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
+          <P Name="ID" Class="char">Property Inspector</P>
+          <P Name="Visible" Class="logical">0</P>
+          <P Name="CreateCallback" Class="char"/>
+          <P Name="UserData" Class="char"/>
+          <P Name="Floating" Class="logical">0</P>
+          <P Name="DockPosition" Class="char">Right</P>
+          <P Name="Width" Class="int32">640</P>
+          <P Name="Height" Class="int32">480</P>
+          <P Name="Minimized" Class="char">Unset</P>
         </Object>
       </Array>
       <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAC9AAAB+PwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAABgAFMAaQBtAHUAbABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZQBzAAAAAAD/////AAAAjAD///8AAAABAAACXAAABMD8AgAAAAH8AAAAeQAABMAAAAAAAP////r/////AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAdABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAAAwAADVIAAADQ/AEAAAAC/AAAAAD/////AAAAAAD////6/////wEAAAAA+/////8BAAAAHgAADVIAAAFZAP///wAADVIAAAQJAAAAAQAAAAIAAAABAAAAAvwAAAADAAAAAAAAAAEAAAA2AGMAbwBsAGwAYQBwAHMAaQBiAGwAZQBQAGEAbgBlAGwAVABvAG8AbABCAGEAcgBMAGUAZgB0AwAAAAD/////AAAAAAAAAAAAAAABAAAAAQAAADgAYwBvAGwAbABhAHAAcwBpAGIAbABlAFAAYQBuAGUAbABUAG8AbwBsAEIAYQByAFIAaQBnAGgAdAIAAAAA/////wAAAAAAAAAAAAAAAwAAAAEAAAA6AGMAbwBsAGwAYQBwAHMAaQBiAGwAZQBQAGEAbgBlAGwAVABvAG8AbABCAGEAcgBCAG8AdAB0AG8AbQAAAAAA/////wAAAAAAAAAA</P>
