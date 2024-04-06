@@ -1,3 +1,4 @@
-**CURRENT**: standalone folder containing the current TorqueVectoring Simulink model, all necessary dependencies and exported code.<br />
-**CM_Simulation_export**: folder containing some simulated data using CM of old TV system.<br />
-**Model**: contains miscellaneous files, with old and new state-space and mpc model. Old code generation.<br />
+**CURRENT**: folder containing the current TorqueVectoring Simulink model, all necessary parameters and exported code.<br />
+**CM_Project**: files of the Carmaker Project, soon to be gitignored for the most part. Contains load_all file which loads all the necessary dependencies and parameters and opens simulink. Also contains the src_cm4sl folder (not modified).<br />
+**Documents**: Formula Student Carmaker demo files + guide.<br />
+**Past code generation**: archive.
